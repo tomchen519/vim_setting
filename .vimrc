@@ -12,3 +12,4 @@ set hlsearch
 set showmatch
 inoremap jk <esc>
 noremap jm :nohlsearch<CR>
+
