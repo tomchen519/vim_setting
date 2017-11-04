@@ -15,3 +15,7 @@ set hlsearch
 set showmatch
 inoremap jk <esc>
 noremap jm :nohlsearch<CR>
+call plug#begin('~/.vim/plugged')
+Plug 'fatih/vim-go'
+Plug 'pangloss/vim-javascript'
+call plug#end()
