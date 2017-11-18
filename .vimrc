@@ -2,7 +2,6 @@ colorscheme molokai
 syntax enable
 set number
 set tabstop=4
-set softtabstop=4
 set shiftwidth=4
 set autoindent
 set smartindent
@@ -19,3 +18,4 @@ call plug#begin('~/.vim/plugged')
 Plug 'fatih/vim-go'
 Plug 'pangloss/vim-javascript'
 call plug#end()
+autocmd Filetype javascript setlocal ts=2 sts=0 sw=2 expandtab
