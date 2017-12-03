@@ -17,5 +17,7 @@ noremap jm :nohlsearch<CR>
 call plug#begin('~/.vim/plugged')
 Plug 'fatih/vim-go'
 Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
 call plug#end()
 autocmd Filetype javascript setlocal ts=2 sts=0 sw=2 expandtab
+let g:jsx_ext_required = 0
